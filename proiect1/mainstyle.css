@@ -1,0 +1,98 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(226, 225, 164);
+    background-image: url("images/background5.jpg");
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    font-family:  Helvetica,Arial, sans-serif;
+    text-align: center;
+    font-style: italic;
+    color: rgb(59, 59, 59);
+    background-position: top;
+}
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+} 
+nav ul li a,.dropbtn{
+    display: block;
+    color: burlywood;
+    text-align: center;
+    text-decoration: none;
+    padding :11px;
+}
+
+nav ul{
+    background-color: rgb(49, 45, 45);
+    height: 40px;
+}
+nav{
+    height: 40px;
+}
+nav ul li:hover{
+    background-color: rgb(75,75,75);
+}
+a:link{
+    color:burlywood;
+    text-decoration: none;
+}
+a:visited{
+    color:burlywood;
+}
+a:hover{
+    color: rgb(220, 235, 22);
+}
+a:active{
+    color:rgb(182, 41, 41);
+    text-decoration: underline;
+}
+ nav ul li .dropbtn {
+    display: inline-block;
+    text-align: center;
+  }
+
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: rgb(49,45,45);
+    width: 25%;
+    z-index: 1;
+  }
+.dropdowncontent a {
+    display: block;
+    text-align: center;
+  }
+ .dropdowncontent a:hover {
+    background-color:rgb(75,75,75);}
+.dropdown:hover .dropdowncontent {
+    display: block;
+  }
+  .goupbtn{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+}
+
+

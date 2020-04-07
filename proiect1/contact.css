@@ -1,0 +1,149 @@
+header{
+    background-image: url("images/contactheader.jpg");
+    background-color: burlywood;
+    background-size: cover;
+    background-position: top;
+    background-size: 100%;
+    padding: 40px;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgb(252, 252, 252);
+    font-size: 50px;
+    height: 250px;
+}
+.contacttitle{
+    font-family:  Helvetica,Arial, sans-serif;
+    text-shadow: 3px 3px 5px burlywood,
+    6px 6px 10px rgb(87, 83, 83);
+    font-size: 22px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.contactform{
+    text-align: center;
+    margin-bottom: 15%;
+}
+form{
+    margin-top: 5%;
+    transition: all 0.3s ease-in-out;
+}
+.formctrl{
+    width: 50%;
+    background-color:burlywood;
+    border-bottom:1px solid black;
+    color: rgb(24, 23, 23);
+    font-size: 20px;
+    border: 5px thin;
+    outline: none;
+}
+input{
+    height: 50px;
+}
+form .submit{
+    background: #8f2707;
+    border-color: black;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 60px;
+}
+form .submit:hover{
+    background-color: rgb(252, 38, 0);
+    cursor: grabbing;
+}
+@media screen and (max-width:1250px){
+    .contacttitle{
+        font-size:20px;
+    }
+}
+@media screen and (max-width:853px)
+{
+    .contacttitle{
+        font-size: 16px;
+    }
+    header
+    {
+        height: 220px;
+        font-size: 40px;
+    } 
+}
+@media screen and (max-width:779px)
+{
+    header{
+        height: 180px;
+        font-size:32px;
+    }
+}
+@media screen and (max-width:686px){
+    header{
+        height: 160px;
+        font-size: 28px;
+    }
+    .contacttitle{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:661px){
+    header{
+        height: 140px;
+        font-size: 24px;
+    }
+    .contacttitle{
+        margin:2%;
+    }
+}
+@media screen and (max-width:624px){
+    nav li a {
+        font-size: 14px;
+        padding: 3px;
+    }
+}
+@media screen and (max-width:560px){
+   
+    header{
+        height: 110px;
+        font-size:20px;
+    }
+   .contacttitle{
+       margin:1%;
+       font-size: 13px;
+   }
+   .formctrl{
+    width: 70%;
+    font-size: 14px;
+    }
+    input{
+        height: 40px;
+    }
+    form .submit{
+        font-size: 18px;
+        height: 50px;
+    }
+}
+@media screen and (max-width:500px)
+{
+    .contacttitle{
+        font-size: 11px;
+    }
+    header{
+        height: 80px;
+    }
+    nav li a:link{
+        font-size: 12px;
+        padding-top:14.5px;
+    }
+    nav ul li{
+        height:40px;
+    }
+}
+@media screen and (max-width:400px)
+{
+
+    header{
+        height: 60px;
+        font-size:20px;
+    }
+}

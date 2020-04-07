@@ -1,0 +1,242 @@
+header{
+    background-image: url("images/infoheader.jpg");
+    background-color: burlywood;
+    background-size: cover;
+    background-position: top;
+    background-size: 100%;
+    padding: 40px;
+    height: 250px;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgb(252, 252, 252);
+    font-size: 50px;
+}
+table{
+    border: 2px solid rgb(75, 75, 75);
+    border-collapse: collapse;
+    text-align:center;
+    height: 600px;
+    width: 60%;
+    margin-top:10%;
+    margin-bottom:12%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+th{
+    background-color: rgb(185, 134, 67);
+    color:rgb(75, 75, 75);
+}
+td{
+    background-color:ivory;
+    color:burlywood
+}
+th,td{
+    border: 2px solid rgb(75, 75, 75);
+    font-family: Helvetica,Arial, sans-serif;
+    font-style: italic;
+}
+button{
+    color:rgb(75, 75, 75);
+    font-family: Helvetica,Arial, sans-serif;
+    font-style: italic;
+    background-color: rgb(185, 134, 67);
+    border-radius: 50%;
+    height: 50px;
+    width: 100px;
+    animation: shake 0.6s infinite;
+    animation-delay: 2s;
+}
+button:hover{
+    background-color: burlywood;
+}
+@keyframes shake{
+    0% {
+        transform: translate(0px,0px) rotate(0deg);
+    }
+    25% {
+        transform: translate(1px,1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px,-1px) rotate(-1deg);
+    }
+    75% {
+        transform: translate(2px,-1px) rotate(2deg);
+    }
+    100% {
+        transform: translate(-1px,1px) rotate(-1deg);
+    }
+}
+.imagine{
+    width: 100px;
+    height: 80px;
+    position: relative;
+    
+    animation:traversare 4s infinite;
+  }
+.imagine img{
+    width: 200px; 
+    height: 150px;
+}
+  @keyframes traversare {
+    0%   {
+        left:3%; 
+    } 
+    100%  {
+         left:83%;
+        }
+}
+@media screen and (max-width:1250px){
+    
+    header{
+        font-size:46px;
+    }
+    .imagine img{
+        width: 180px;
+        height: 120px;
+    }
+}
+@media screen and (max-width:1000px){
+    @keyframes traversare {
+        0%   {
+            left:4%; 
+        } 
+        100%  {
+             left:80%;
+            }
+    }
+    .imagine img{
+        width: 160px;
+        height: 100px;
+    }
+    .imagine{
+        height:  60px;
+    }
+}
+
+@media screen and (max-width:853px)
+{
+    header
+    {
+        height: 220px;
+        font-size: 40px;
+    } 
+    button{
+        height: 30px;
+        width: 100px;
+    }
+}
+@media screen and (max-width:779px)
+{
+    header{
+        height: 180px;
+        font-size:32px;
+    }
+    .imagine img{
+        width: 140px;
+        height: 90px;
+    }
+    .imagine{
+        height:  40px;
+    }
+    table{
+        
+        height: 600px;
+        width: 80%;
+        margin-top:10%;
+        margin-bottom:12%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media screen and (max-width:712px){
+    .imagine img{
+        width: 120px;
+        height: 70px;
+    }
+    .imagine{
+        height:  40px;
+    }
+}
+@media screen and (max-width:686px){
+    
+    header{
+        height: 160px;
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:661px){
+    header{
+        height: 140px;
+        font-size: 24px;
+    }    
+}
+@media screen and (max-width:624px){
+    nav li a {
+        font-size: 14px;
+        padding: 2px;
+    }
+    .imagine img{
+        width: 100px;
+        height: 60px;
+    }
+    .imagine{
+        height:  30px;
+    }
+    th,td{
+        font-size:14px;
+    }
+}
+@media screen and (max-width:560px){
+    header{
+        height: 110px;
+        font-size:20px;
+    }
+    .imagine img{
+        width: 80px;
+        height: 50px;
+    }
+    .imagine{
+        height:  30px;
+    }
+    table{
+        height: 400px;
+    }
+}
+@media screen and (max-width:500px)
+{
+    h1{
+        font-size:18px;
+    }
+    header{
+        height: 80px;
+    }
+    
+    nav li a:link{
+        font-size: 12px;
+        padding-top:14.5px;
+    }
+    nav ul li{
+        height:40px;
+    }
+}
+@media screen and (max-width:400px)
+{
+    header{
+        height: 60px;
+        font-size:20px;
+    }
+    .imagine img{
+        width: 50px;
+        height: 40px;
+    }
+    .imagine{
+        height:  20px;
+    }
+    @keyframes traversare {
+        0%   {
+            left:5%; 
+        } 
+        100%  {
+             left:71%;
+            }
+    }
+}
