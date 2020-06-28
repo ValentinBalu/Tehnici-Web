@@ -1,0 +1,27 @@
+body{
+    background-color: red;
+    background-image: url("images/empty1.jpg");
+    background-size: 100%;
+}
+h1{
+    font-size: 62px;
+    color: rgb(75,75,75);
+    text-shadow: 2px 2px cornsilk;
+    text-align: center;
+}
+h2,a{
+    font-size: 32px;
+    color: rgb(75,75,75);
+    text-shadow: 2px 2px cornsilk;
+}
+a:hover{
+    color:crimson;
+}
+
+#eroare{
+    background-color: burlywood;
+    border: 2px solid black;
+    text-align: center;
+    width: 40%;
+    height: 30%;
+}

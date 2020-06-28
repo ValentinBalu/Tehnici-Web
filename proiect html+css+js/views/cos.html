@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grain&Sugar</title>
+        <link rel='shortcut icon'
+        type='image/png'
+        href='../public/css/images/icon.png'/>
+        <link rel='stylesheet'
+        href='../public/css/mainstyle.css'/>
+        <link rel='stylesheet'
+        href='../public/css/cos.css'/>
+        <link rel='stylesheet'
+        href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"/>
+    </head>
+    <body>
+        <header>
+            <h2>Coșul Dumneavoastră</h2>
+        </header>
+        <nav>
+            <ul>
+            <li><a href="home.html">Acasă</a></li>
+            <li><a href="products.html">Produse</a></li>
+            <li><a href="receipes.html">Rețete</a></li>   
+           <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Info&Contact</a>
+                <div class=" dropdowncontent">
+                    <a href="info.html">Informații</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                </li>
+            </ul>
+        </nav> <br> <br> <br>
+        <div class="sectiune-adauga">
+            <h2>Adauga un produs nou in cos!</h2><br>
+            Tip:
+            <select class="label" name="" id="post">
+                <option>Produse de post</option>
+                <option>Produse din ingrediente de provenienta animala</option>
+            </select>
+            <br>
+            Produs: 
+            <select class="label" name="" id="numepost">
+                <option>Strudel cu mere</option>
+                <option>Melc cu nuca</option>
+                <option>Strudel cu visine</option>
+            </select>
+            <select class="label" name="" id="numenepost">
+                <option>Croissant cu unt</option>
+                <option>Merdenea</option>
+                <option>Placinta cu urda si stafide</option>
+            </select><br>
+            <span class="label">Pret:</span><input type="text" id="pret" placeholder="pret in lei"><br>
+            <button id="adaugabtn">Adauga produs!</button>
+        </div>
+        <br><br><br><br><br>
+        <div id="lista-produse">
+            <div class="produs">
+                <h3>Nume : Strudel cu mere</h3>
+                <h3>Tip : Produs de post</h3>
+                <h3>Pret lei : 3</h3>
+                <img src="../public/css/images/produs.jpg" alt="nu">
+                <br>
+                <button class="sterge">Sterge din cos</button>
+            </div>
+        </div>
+        <br><br>
+    </body>
+    <script src="../public/js/cos.js"></script>
+</html>

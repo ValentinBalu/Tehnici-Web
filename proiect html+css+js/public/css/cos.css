@@ -1,0 +1,69 @@
+header{
+    background-image: url("images/cartul.jpg");
+    background-color:burlywood;
+    background-position:center;
+    text-align: center;
+    background-size: 100%;
+    padding: 40px;
+    height: 250px;
+    text-shadow: 3px 3px 5px rgb(252, 252, 252);
+    font-size: 50px;
+}
+.sectiune-adauga{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left:20vw;
+    width: 50vw;
+    padding: 1%;
+    border: 2px solid burlywood;
+    background-color: cornsilk;
+    color: rgb(75,75,75);
+    text-shadow: 3px 3px 5px burlywood;
+
+}
+#numepost,#numenepost,#pret,#post{
+    color: burlywood;
+    background-color: rgb(75,75,75);
+}
+#adaugabtn{
+    color: burlywood;
+    background-color: rgb(75,75,75);
+}
+#numepost,#numenepost{
+    display: none;
+}
+.label,#sterge{
+    margin-top: 1vh !important;
+}
+#lista-produse{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.produs{
+    border: 5px solid burlywood;
+    padding: 2%;
+    margin: 1px;
+    background-color: cornsilk;
+}
+.produs img{
+    width: 20vw;
+}
+.sterge{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    border-radius: 10%;
+    background-color: rgb(75,75,75);
+    color:burlywood;
+    text-shadow: 2px 2px black;
+}
+h3{
+    color:rgb(56, 56, 56);
+    text-shadow: 2px 2px 3px burlywood;
+}
